@@ -34,7 +34,7 @@ const getComputerChoice = () => {
         return SCISSORS;
     }
 };
-
+//
 const getWinner = (cChoice, pChoice = DEFAULT_USER_CHOICE) => 
      cChoice === pChoice 
     ? RESULT_DRAW 
